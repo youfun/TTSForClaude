@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: TTSForClaude
+    env: static
+    buildCommand: pnpm install && pnpm run build
+    staticPublishPath: build
+    autoDeploy: false
