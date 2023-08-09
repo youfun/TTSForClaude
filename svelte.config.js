@@ -1,4 +1,4 @@
-import adapter from '@sveltejs/adapter-static';
+import adapter from '@sveltejs/adapter-vercel'
 //import { vitePreprocess } from '@sveltejs/kit/vite'
 
 /**使用自定义Adapter时可能需要配置 vitePreproces 
